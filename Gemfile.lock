@@ -92,6 +92,10 @@ GEM
     debug (1.9.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     execjs (2.9.1)
     ffi (1.16.3)
@@ -235,6 +239,7 @@ DEPENDENCIES
   bootstrap (~> 5.2)
   capybara
   debug
+  dotenv-rails
   importmap-rails
   pg (~> 1.1)
   puma (~> 5.0)
